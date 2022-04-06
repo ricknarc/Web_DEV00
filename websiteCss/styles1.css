@@ -1,0 +1,65 @@
+a.link{
+     color: pink;
+}
+
+a{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+header{
+    display: flex;
+    justify-content : space-between;
+}
+header h1{
+    margin-left: 2rem;
+}
+nav{
+    margin-right: 1rem;
+}
+ul{
+    display : flex;
+    justify-content: space-evenly;
+     width: 20rem;
+}
+.parent{
+    /* border : 10px solid red; */
+    margin-top: 2rem;
+    display : flex;
+    /* everything will be centerd */
+    text-align: center;
+    justify-content: space-evenly;
+}
+.child{
+    width: 30%;
+}
+.footParent{
+    display : flex;
+    height: 5rem;
+    background-color: black;
+    /* perfectly centering a div  */
+    align-items: center;
+    justify-content: center;
+}
+
+.footcontent{
+    color: aqua;
+    /* boldness */
+    font-weight: 500;
+    font-size: 1.5rem;
+    /* enforce uppercase */
+    text-transform: uppercase;
+}
+ul{
+  display: flex ;
+  justify-content: space-evenly;
+  width: 20rem;
+}
+ul>li{
+    width: 30%;
+    font-size: 1.5rem;
+}
+.main-img{
+    width: 100vw;
+    height: auto;
+
+}
